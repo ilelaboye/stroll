@@ -1,3 +1,3 @@
 # stroll
 
-A new Flutter project.
+Stroll is dating app
