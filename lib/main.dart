@@ -32,6 +32,7 @@ class _StrollAppState extends State<StrollApp> {
       darkTheme: StrollTheme.dark(),
       themeMode: ThemeMode.dark,
       home: Scaffold(
+        extendBodyBehindAppBar: true,
         body: _screens[_currentIndex],
         bottomNavigationBar: Container(
           padding: const EdgeInsets.only(top: 3),
