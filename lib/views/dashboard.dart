@@ -145,7 +145,7 @@ class _DashboardState extends State<Dashboard> {
                   ),
                 ),
                 Positioned(
-                  top: -48,
+                  top: Platform.isAndroid ? -48 : -35,
                   child: Container(
                     padding: EdgeInsets.symmetric(horizontal: 10),
                     width: MediaQuery.of(context).size.width,
